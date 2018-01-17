@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #table_form
+        {
+            background: aqua;
+            width: 300px;
+            color: red;
+            margin: 10px;
+
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- input and label -->
+    <div>
+        <form>
+            <label for="username">User name:</label>
+            <input type="text" id="username">
+           <br><br>
+            <label for="password">Password:&nbsp;&nbsp;</label>
+            <input type="password" id="password" >
+            <br><br>
+            <input type="submit" align="center">
+        </form>
+    </div>
+
+   <!--table alignment -->
+    <hr><br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br><hr>
+
+    <div>
+        <form>
+            <table id="table_form">
+                <tr>
+                    <td>
+                        <label for="username">User name:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="username">
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>
+                        <input type="password" id="password" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="select-language">seletct a language :</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select id="select-language">
+                            <option value="html">html</option>
+                            <option value="angualr js">angular js</option>
+                            <option value="java script">java script</option>
+                            <option value="jquery">jquery</option>
+                            <option value="advance java script">advance java script</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button>button</button>
+                        <input type="submit" value="submit">
+                        <input type="reset" value="reset">
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+    <!-- Select and Option -->
+    <form>
+        <label for="select-language" >seletct a language :</label>
+        <select id="select-language">
+            <option value="html">html</option>
+            <option value="angualr js">angular js</option>
+            <option value="java script">java script</option>
+            <option value="jquery">jquery</option>
+            <option value="advance java script">advance java script</option>
+        </select>
+    </form>
+
+    <!-- Textarea -->
+    <form>
+        <label for="message">Your message :</label>
+        <textarea id="message" rows="5" cols="30"></textarea>
+    </form>
+<br><br> <br>
+    <!-- button --><--! button tag is used to display a normal button if u want to apply dinamic nature to this buttpon we should java script-->
+    <form>
+        <button>button</button>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+    <br><br><br>
+
+    <!-- datalist -->
+<input list="technologies" name="tech">
+<datalist id="technologies">
+    <option value="javascript">
+    <option value="javascript">
+    <option value="javascript">
+    <option value="javascript">
+    <option value="javascript">
+</datalist>
+
+
+</body>
+</html>
